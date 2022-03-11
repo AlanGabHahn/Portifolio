@@ -95,3 +95,45 @@ footer a{
 .button a:hover{
     opacity: 0.8;
 }
+
+@media (max-width:850px){
+
+    header{
+        position: initial;
+        background-color: #ccc;
+    }
+    .menu-line{
+        background-color: aliceblue;
+    }
+    .container{
+        flex-direction: column;
+    height: calc(100vh - 66px);
+    }
+    .leftside{
+        flex: none;
+        padding: 30px 20px;
+        justify-content: center;
+        text-align: center;
+    }
+    footer{
+        position: initial;
+        color: #ccc;
+        font-size: 16px;
+    }
+    footer a{
+        color: #ccc;
+    }
+    
+}
+@media (max-width: 450px){
+
+    .leftside .info .name{
+        font-size: 50px;
+    }
+
+    .button a{
+        display: block;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
